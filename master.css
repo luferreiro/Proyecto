@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+
+    .contenedor{
+        background-color: yellow;
+
+    }
+    .cuadro1{
+        background-color: aqua;
+        width: 100vw;
+        height: 20vh;
+
+    }
+    .cuadro2{
+        background-color: blue;
+        width: 100vw;
+        height: 20vh;
+    }
+    .cuadro3{
+        background-color: blueviolet;
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .encabezado{
+        height: 20vh;
+
+
+    }
+    .seccion1{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .pie{
+        height: 20vh;
+
+    }
+
+
+@media (min-width: 768px){
+    .contenedor{
+        background-color: chartreuse;
+    }
+    .cuadro1{
+        background-color: aqua;
+        width: 50vw;
+        height: 30vh;
+
+
+    }
+    .cuadro2{
+        background-color: blue;
+        width: 50vw;
+        height: 30vh;
+
+    }
+    .cuadro3{
+        background-color: blueviolet;
+        width: 100vw;
+        height: 30vh;
+
+    }
+
+
+    .encabezado{
+        height: 20vh;
+
+    }
+    .seccion1{
+        height: 60vh;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+    }
+    .pie{
+        height: 20vh;
+    }
+}
+@media (min-width: 960px){
+
+    .contenedor{
+
+        background-color: coral;
+        max-width: 100vw;
+
+    }
+    .cuadro1{
+        background-color: aqua;
+        width: 33.33vw;
+        height: 60vh;
+
+    }
+    .cuadro2{
+        background-color: blue;
+        width: 33.33vw;
+        height: 60vh;
+          }
+    .cuadro3{
+        background-color: blueviolet;
+        width: 33.33vw;
+        height: 60vh;
+          }
+    .encabezado{
+        height: 20vh;
+
+    }
+    .seccion1{
+        height: 60vh;
+        display: flex;
+        flex-direction: row;
+      flex-wrap: nowrap;
+        }
+    .pie{
+        height: 20vh;
+    }
+}
